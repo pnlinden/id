@@ -19,37 +19,37 @@ The sub-namespace AAS and its identifiers have been accepted by the Coordination
 ## AccessControl/accessPermissionRule
  Access permission rules of the AAS describing the rights assigned to (already authenticated) subjects to access elements of the AAS.
 
- [http://admin-shell.io/aas/2/0/AccessControl/accessPermissionRule](http://admin-shell.io/aas/2/0/AccessControl/accessPermissionRule) The attribute accessPermissionRule of the AccessControl class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/AccessControl/accessPermissionRule](http://admin-shell.io/aas/2/0/AccessControl/accessPermissionRule) The attribute accessPermissionRule of the AccessControl class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## AccessControl/defaultEnvironmentAttributes
  Reference to a submodel defining default environment attributes, i.e. attributes that are not describing the asset itself. The submodel is of kind=Type. At the same type the values of these environment attributes need to be accessible when evaluating the access permission rules. This is realized as a policy information point.
 
- [http://admin-shell.io/aas/2/0/AccessControl/defaultEnvironmentAttributes](http://admin-shell.io/aas/2/0/AccessControl/defaultEnvironmentAttributes) The attribute defaultEnvironmentAttributes of the AccessControl class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/AccessControl/defaultEnvironmentAttributes](http://admin-shell.io/aas/2/0/AccessControl/defaultEnvironmentAttributes) The attribute defaultEnvironmentAttributes of the AccessControl class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## AccessControl/defaultPermissions
  Reference to a submodel defining the default permissions for the AAS.
 
- [http://admin-shell.io/aas/2/0/AccessControl/defaultPermissions](http://admin-shell.io/aas/2/0/AccessControl/defaultPermissions) The attribute defaultPermissions of the AccessControl class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/AccessControl/defaultPermissions](http://admin-shell.io/aas/2/0/AccessControl/defaultPermissions) The attribute defaultPermissions of the AccessControl class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## AccessControl/defaultSubjectAttributes
  Reference to a submodel defining the default subjects attributes for the AAS that can be used to describe access permission rules. The submodel is of kind=Type.
 
- [http://admin-shell.io/aas/2/0/AccessControl/defaultSubjectAttributes](http://admin-shell.io/aas/2/0/AccessControl/defaultSubjectAttributes) The attribute defaultSubjectAttributes of the AccessControl class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/AccessControl/defaultSubjectAttributes](http://admin-shell.io/aas/2/0/AccessControl/defaultSubjectAttributes) The attribute defaultSubjectAttributes of the AccessControl class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## AccessControl/selectableEnvironmentAttributes
  Reference to a submodel defining which environment attributes can be accessed via the permission rules defined for the AAS, i.e. attributes that are not describing the asset itself. Default: reference to the submodel referenced via defaultEnvironmentAttributes
 
- [http://admin-shell.io/aas/2/0/AccessControl/selectableEnvironmentAttributes](http://admin-shell.io/aas/2/0/AccessControl/selectableEnvironmentAttributes) The attribute selectableEnvironmentAttributes of the AccessControl class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/AccessControl/selectableEnvironmentAttributes](http://admin-shell.io/aas/2/0/AccessControl/selectableEnvironmentAttributes) The attribute selectableEnvironmentAttributes of the AccessControl class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## AccessControl/selectablePermissions
  Reference to a submodel defining which permissions can be assigned to the subjects.
 
- [http://admin-shell.io/aas/2/0/AccessControl/selectablePermissions](http://admin-shell.io/aas/2/0/AccessControl/selectablePermissions) The attribute selectablePermissions of the AccessControl class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/AccessControl/selectablePermissions](http://admin-shell.io/aas/2/0/AccessControl/selectablePermissions) The attribute selectablePermissions of the AccessControl class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## AccessControl/selectableSubjectAttributes
  Reference to a submodel defining the authenticated subjects that are configured for the AAS. They are selectable by the access permission rules to assign permissions to the subjects.
 
- [http://admin-shell.io/aas/2/0/AccessControl/selectableSubjectAttributes](http://admin-shell.io/aas/2/0/AccessControl/selectableSubjectAttributes) The attribute selectableSubjectAttributes of the AccessControl class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/AccessControl/selectableSubjectAttributes](http://admin-shell.io/aas/2/0/AccessControl/selectableSubjectAttributes) The attribute selectableSubjectAttributes of the AccessControl class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## AccessControlPolicyPoints
  Container for access control policy points.
@@ -59,22 +59,22 @@ The sub-namespace AAS and its identifiers have been accepted by the Coordination
 ## AccessControlPolicyPoints/policyAdministrationPoint
  The access control administration policy point of the AAS.
 
- [http://admin-shell.io/aas/2/0/AccessControlPolicyPoints/policyAdministrationPoint](http://admin-shell.io/aas/2/0/AccessControlPolicyPoints/policyAdministrationPoint) The attribute policyAdministrationPoint of the AccessControlPolicyPoints class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/AccessControlPolicyPoints/policyAdministrationPoint](http://admin-shell.io/aas/2/0/AccessControlPolicyPoints/policyAdministrationPoint) The attribute policyAdministrationPoint of the AccessControlPolicyPoints class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## AccessControlPolicyPoints/policyDecisionPoint
  The access control policy decision point of the AAS.
 
- [http://admin-shell.io/aas/2/0/AccessControlPolicyPoints/policyDecisionPoint](http://admin-shell.io/aas/2/0/AccessControlPolicyPoints/policyDecisionPoint) The attribute policyDecisionPoint of the AccessControlPolicyPoints class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/AccessControlPolicyPoints/policyDecisionPoint](http://admin-shell.io/aas/2/0/AccessControlPolicyPoints/policyDecisionPoint) The attribute policyDecisionPoint of the AccessControlPolicyPoints class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## AccessControlPolicyPoints/policyEnforcementPoint
  The access control policy enforcement point of the AAS.
 
- [http://admin-shell.io/aas/2/0/AccessControlPolicyPoints/policyEnforcementPoint](http://admin-shell.io/aas/2/0/AccessControlPolicyPoints/policyEnforcementPoint) The attribute policyEnforcementPoint of the AccessControlPolicyPoints class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/AccessControlPolicyPoints/policyEnforcementPoint](http://admin-shell.io/aas/2/0/AccessControlPolicyPoints/policyEnforcementPoint) The attribute policyEnforcementPoint of the AccessControlPolicyPoints class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## AccessControlPolicyPoints/policyInformationPoints
  The access control policy information points of the AAS.
 
- [http://admin-shell.io/aas/2/0/AccessControlPolicyPoints/policyInformationPoints](http://admin-shell.io/aas/2/0/AccessControlPolicyPoints/policyInformationPoints) The attribute policyInformationPoints of the AccessControlPolicyPoints class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/AccessControlPolicyPoints/policyInformationPoints](http://admin-shell.io/aas/2/0/AccessControlPolicyPoints/policyInformationPoints) The attribute policyInformationPoints of the AccessControlPolicyPoints class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## AccessPermissionRule
  Table that defines access permissions per authenticated subject for a set of objects (referable elements).
@@ -84,12 +84,12 @@ The sub-namespace AAS and its identifiers have been accepted by the Coordination
 ## AccessPermissionRule/permissionsPerObject
  Set of object-permission pairs that define the permissions per object within the access permission rule.
 
- [http://admin-shell.io/aas/2/0/AccessPermissionRule/permissionsPerObject](http://admin-shell.io/aas/2/0/AccessPermissionRule/permissionsPerObject) The attribute permissionsPerObject of the AccessPermissionRule class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/AccessPermissionRule/permissionsPerObject](http://admin-shell.io/aas/2/0/AccessPermissionRule/permissionsPerObject) The attribute permissionsPerObject of the AccessPermissionRule class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## AccessPermissionRule/targetSubjectAttributes
  Target subject attributes that need to be fulfilled by the accessing subject to get the permissions defined by this rule.
 
- [http://admin-shell.io/aas/2/0/AccessPermissionRule/targetSubjectAttributes](http://admin-shell.io/aas/2/0/AccessPermissionRule/targetSubjectAttributes) The attribute targetSubjectAttributes of the AccessPermissionRule class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/AccessPermissionRule/targetSubjectAttributes](http://admin-shell.io/aas/2/0/AccessPermissionRule/targetSubjectAttributes) The attribute targetSubjectAttributes of the AccessPermissionRule class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## AdministrativeInformation
  Every Identifiable may have administrative information. Administrative information includes for example  Information about the version of the element  Information about who created or who made the last change to the element  Information about the languages available in case the element contains text, for translating purposed also themmaster or default language may be definedIn the first version of the AAS metamodel only version information as defined by IEC 61360 is defined. In later versions additional attributes may be added.
@@ -99,12 +99,12 @@ The sub-namespace AAS and its identifiers have been accepted by the Coordination
 ## AdministrativeInformation/revision
  Revision of the element. Constraint AASd-005: A revision requires a version. This means, if there is no version there is no revision neither.
 
- [http://admin-shell.io/aas/2/0/AdministrativeInformation/revision](http://admin-shell.io/aas/2/0/AdministrativeInformation/revision) The attribute revision of the AdministrativeInformation class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/AdministrativeInformation/revision](http://admin-shell.io/aas/2/0/AdministrativeInformation/revision) The attribute revision of the AdministrativeInformation class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## AdministrativeInformation/version
  Version of the element.
 
- [http://admin-shell.io/aas/2/0/AdministrativeInformation/version](http://admin-shell.io/aas/2/0/AdministrativeInformation/version) The attribute version of the AdministrativeInformation class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/AdministrativeInformation/version](http://admin-shell.io/aas/2/0/AdministrativeInformation/version) The attribute version of the AdministrativeInformation class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## AnnotatedRelationshipElement
  An annotated relationship element is an relationship element that can be annotated with additional data elements.
@@ -114,7 +114,7 @@ The sub-namespace AAS and its identifiers have been accepted by the Coordination
 ## AnnotatedRelationshipElement/annotation
  Annotations that hold for the relationships between the two elements.
 
- [http://admin-shell.io/aas/2/0/AnnotatedRelationshipElement/annotation](http://admin-shell.io/aas/2/0/AnnotatedRelationshipElement/annotation) The attribute annotation of the AnnotatedRelationshipElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/AnnotatedRelationshipElement/annotation](http://admin-shell.io/aas/2/0/AnnotatedRelationshipElement/annotation) The attribute annotation of the AnnotatedRelationshipElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Asset
  An Asset describes meta data of an asset that is represented by an AAS. The asset may either represent an asset type or an asset instance. The asset has a globally unique identifier plus – if needed – additional domain specific (proprietary) identifiers.
@@ -124,17 +124,17 @@ The sub-namespace AAS and its identifiers have been accepted by the Coordination
 ## Asset/assetIdentificationModel
  A reference to a Submodel that defines the handling of additional domain specific (proprietary) Identifiers for the asset like e.g. serial number etc.
 
- [http://admin-shell.io/aas/2/0/Asset/assetIdentificationModel](http://admin-shell.io/aas/2/0/Asset/assetIdentificationModel) The attribute assetIdentificationModel of the Asset class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Asset/assetIdentificationModel](http://admin-shell.io/aas/2/0/Asset/assetIdentificationModel) The attribute assetIdentificationModel of the Asset class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Asset/assetKind
  Denotes whether the Asset of of kind 'Type' or 'Instance'.
 
- [http://admin-shell.io/aas/2/0/Asset/assetKind](http://admin-shell.io/aas/2/0/Asset/assetKind) The attribute assetKind of the Asset class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Asset/assetKind](http://admin-shell.io/aas/2/0/Asset/assetKind) The attribute assetKind of the Asset class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Asset/billOfMaterial
  Bill of material of the asaset represented by a submodel of the same AAS. This submodel contains a set of entities describing the material used to compose the composite I4.0 Component.
 
- [http://admin-shell.io/aas/2/0/Asset/billOfMaterial](http://admin-shell.io/aas/2/0/Asset/billOfMaterial) The attribute billOfMaterial of the Asset class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Asset/billOfMaterial](http://admin-shell.io/aas/2/0/Asset/billOfMaterial) The attribute billOfMaterial of the Asset class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## AssetAdministrationShell
  Describes the Administration Shell for Assets, Products, Components, e.g. Machines
@@ -144,37 +144,37 @@ The sub-namespace AAS and its identifiers have been accepted by the Coordination
 ## AssetAdministrationShell/asset
  The asset the AAS is representing.
 
- [http://admin-shell.io/aas/2/0/AssetAdministrationShell/asset](http://admin-shell.io/aas/2/0/AssetAdministrationShell/asset) The attribute asset of the AssetAdministrationShell class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/AssetAdministrationShell/asset](http://admin-shell.io/aas/2/0/AssetAdministrationShell/asset) The attribute asset of the AssetAdministrationShell class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## AssetAdministrationShell/conceptDictionary
  An AAS max have one or more concept dictionaries assigned to it. The concept dictionaries typically contain only descriptions for elements that are also used within the AAS (via HasSemantics).
 
- [http://admin-shell.io/aas/2/0/AssetAdministrationShell/conceptDictionary](http://admin-shell.io/aas/2/0/AssetAdministrationShell/conceptDictionary) The attribute conceptDictionary of the AssetAdministrationShell class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/AssetAdministrationShell/conceptDictionary](http://admin-shell.io/aas/2/0/AssetAdministrationShell/conceptDictionary) The attribute conceptDictionary of the AssetAdministrationShell class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## AssetAdministrationShell/derivedFrom
  This relation connects instances of AAS with their respective types. Refer to Asset Kind for further information of instance and type kinds.
 
- [http://admin-shell.io/aas/2/0/AssetAdministrationShell/derivedFrom](http://admin-shell.io/aas/2/0/AssetAdministrationShell/derivedFrom) The attribute derivedFrom of the AssetAdministrationShell class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/AssetAdministrationShell/derivedFrom](http://admin-shell.io/aas/2/0/AssetAdministrationShell/derivedFrom) The attribute derivedFrom of the AssetAdministrationShell class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## AssetAdministrationShell/describes
  Connect the Asset with the Administration Shell
 
- [http://admin-shell.io/aas/2/0/AssetAdministrationShell/describes](http://admin-shell.io/aas/2/0/AssetAdministrationShell/describes) The attribute describes of the AssetAdministrationShell class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/AssetAdministrationShell/describes](http://admin-shell.io/aas/2/0/AssetAdministrationShell/describes) The attribute describes of the AssetAdministrationShell class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## AssetAdministrationShell/security
  Definition of the security relevant aspects of the AAS.
 
- [http://admin-shell.io/aas/2/0/AssetAdministrationShell/security](http://admin-shell.io/aas/2/0/AssetAdministrationShell/security) The attribute security of the AssetAdministrationShell class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/AssetAdministrationShell/security](http://admin-shell.io/aas/2/0/AssetAdministrationShell/security) The attribute security of the AssetAdministrationShell class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## AssetAdministrationShell/submodel
  Points from the Admin Shell to the Submodels that describe the Admin Shell of a given Asset
 
- [http://admin-shell.io/aas/2/0/AssetAdministrationShell/submodel](http://admin-shell.io/aas/2/0/AssetAdministrationShell/submodel) The attribute submodel of the AssetAdministrationShell class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/AssetAdministrationShell/submodel](http://admin-shell.io/aas/2/0/AssetAdministrationShell/submodel) The attribute submodel of the AssetAdministrationShell class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## AssetAdministrationShell/view
  Points to the differents views associated to the Administration Shell via the Submodels.
 
- [http://admin-shell.io/aas/2/0/AssetAdministrationShell/view](http://admin-shell.io/aas/2/0/AssetAdministrationShell/view) The attribute view of the AssetAdministrationShell class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/AssetAdministrationShell/view](http://admin-shell.io/aas/2/0/AssetAdministrationShell/view) The attribute view of the AssetAdministrationShell class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## AssetKind
  Enumeration for denoting whether an element is a type or an instance.
@@ -184,12 +184,12 @@ The sub-namespace AAS and its identifiers have been accepted by the Coordination
 ## AssetKind/ASSET_INSTANCE
  Concrete, clearly identifiable component of a certain type.
 
- [http://admin-shell.io/aas/2/0/AssetKind/ASSET_INSTANCE](http://admin-shell.io/aas/2/0/AssetKind/ASSET_INSTANCE) The NamedIndividual ASSET_INSTANCE of the AssetKind class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/AssetKind/ASSET_INSTANCE](http://admin-shell.io/aas/2/0/AssetKind/ASSET_INSTANCE) The NamedIndividual ASSET_INSTANCE of the AssetKind class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## AssetKind/ASSET_TYPE
  hardware or software element which specifies the common attributes shared by all instances of the type.
 
- [http://admin-shell.io/aas/2/0/AssetKind/ASSET_TYPE](http://admin-shell.io/aas/2/0/AssetKind/ASSET_TYPE) The NamedIndividual ASSET_TYPE of the AssetKind class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/AssetKind/ASSET_TYPE](http://admin-shell.io/aas/2/0/AssetKind/ASSET_TYPE) The NamedIndividual ASSET_TYPE of the AssetKind class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## BasicEvent
  
@@ -199,7 +199,7 @@ The sub-namespace AAS and its identifiers have been accepted by the Coordination
 ## BasicEvent/observed
  Reference to the data or other elements that are being observed.
 
- [http://admin-shell.io/aas/2/0/BasicEvent/observed](http://admin-shell.io/aas/2/0/BasicEvent/observed) The attribute observed of the BasicEvent class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/BasicEvent/observed](http://admin-shell.io/aas/2/0/BasicEvent/observed) The attribute observed of the BasicEvent class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Blob
  A BLOB is a data element that represents a file that is contained with its source code in the value attribute.
@@ -209,12 +209,12 @@ The sub-namespace AAS and its identifiers have been accepted by the Coordination
 ## Blob/mimeType
  Mime type of the content of the BLOB. The mime type states which file extension the file has. Valid values are e.g. 'application/json', 'application/xls', 'image/jpg' The allowed values are defined as in RFC2046. 
 
- [http://admin-shell.io/aas/2/0/Blob/mimeType](http://admin-shell.io/aas/2/0/Blob/mimeType) The attribute mimeType of the Blob class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Blob/mimeType](http://admin-shell.io/aas/2/0/Blob/mimeType) The attribute mimeType of the Blob class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Blob/value
  The value, for example an IRDI if the idType=IRDI, a literal, or anything else.
 
- [http://admin-shell.io/aas/2/0/Blob/value](http://admin-shell.io/aas/2/0/Blob/value) The attribute value of the Blob class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Blob/value](http://admin-shell.io/aas/2/0/Blob/value) The attribute value of the Blob class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## BlobCertificate
  Certificate provided as BLOB.
@@ -224,17 +224,17 @@ The sub-namespace AAS and its identifiers have been accepted by the Coordination
 ## BlobCertificate/blobCertificate
  Certificate as BLOB.
 
- [http://admin-shell.io/aas/2/0/BlobCertificate/blobCertificate](http://admin-shell.io/aas/2/0/BlobCertificate/blobCertificate) The attribute blobCertificate of the BlobCertificate class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/BlobCertificate/blobCertificate](http://admin-shell.io/aas/2/0/BlobCertificate/blobCertificate) The attribute blobCertificate of the BlobCertificate class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## BlobCertificate/containedExtension
  Extensions contained in the certificate.
 
- [http://admin-shell.io/aas/2/0/BlobCertificate/containedExtension](http://admin-shell.io/aas/2/0/BlobCertificate/containedExtension) The attribute containedExtension of the BlobCertificate class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/BlobCertificate/containedExtension](http://admin-shell.io/aas/2/0/BlobCertificate/containedExtension) The attribute containedExtension of the BlobCertificate class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## BlobCertificate/lastCertificate
  Denotes whether this certificate is the certificated that fast added last.
 
- [http://admin-shell.io/aas/2/0/BlobCertificate/lastCertificate](http://admin-shell.io/aas/2/0/BlobCertificate/lastCertificate) The attribute lastCertificate of the BlobCertificate class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/BlobCertificate/lastCertificate](http://admin-shell.io/aas/2/0/BlobCertificate/lastCertificate) The attribute lastCertificate of the BlobCertificate class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Capability
  A capability is the implementation-independent description of the potential of an asset to achieve a certain effect in the physical or virtual world.
@@ -249,17 +249,17 @@ The sub-namespace AAS and its identifiers have been accepted by the Coordination
 ## Category/CONSTANT
  A constant property is a property with a value that does not change over time. In eCl@ss this kind of category has the category 'Coded Value'.
 
- [http://admin-shell.io/aas/2/0/Category/CONSTANT](http://admin-shell.io/aas/2/0/Category/CONSTANT) The NamedIndividual CONSTANT of the Category class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Category/CONSTANT](http://admin-shell.io/aas/2/0/Category/CONSTANT) The NamedIndividual CONSTANT of the Category class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Category/PARAMETER
  A parameter property is a property that is once set and then typically does not change over time. This is for example the case for configuration parameters.
 
- [http://admin-shell.io/aas/2/0/Category/PARAMETER](http://admin-shell.io/aas/2/0/Category/PARAMETER) The NamedIndividual PARAMETER of the Category class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Category/PARAMETER](http://admin-shell.io/aas/2/0/Category/PARAMETER) The NamedIndividual PARAMETER of the Category class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Category/VARIABLE
  A variable property is a property that is calculated during runtime, i.e. its value is a runtime value.
 
- [http://admin-shell.io/aas/2/0/Category/VARIABLE](http://admin-shell.io/aas/2/0/Category/VARIABLE) The NamedIndividual VARIABLE of the Category class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Category/VARIABLE](http://admin-shell.io/aas/2/0/Category/VARIABLE) The NamedIndividual VARIABLE of the Category class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Certificate
  A technical certificate proofing the identity through cryptographic measures.
@@ -276,7 +276,7 @@ The AAS itself can also define its own dictionary that contains semantic definit
 ## ConceptDescription/isCaseOf
  Global reference to an external definition the concept is compatible to or was derived from.
 
- [http://admin-shell.io/aas/2/0/ConceptDescription/isCaseOf](http://admin-shell.io/aas/2/0/ConceptDescription/isCaseOf) The attribute isCaseOf of the ConceptDescription class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/ConceptDescription/isCaseOf](http://admin-shell.io/aas/2/0/ConceptDescription/isCaseOf) The attribute isCaseOf of the ConceptDescription class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## ConceptDictionary
  A dictionary contains elements that can be reused. The concept dictionary contains concept descriptions. Typically a concept description dictionary of an AAS contains only concept descriptions of elements used within submodels of the AAS.
@@ -286,7 +286,7 @@ The AAS itself can also define its own dictionary that contains semantic definit
 ## ConceptDictionary/conceptDescription
  The semantics of a property or other elements that may have a semantic description is defined by a concept description. The description of the concept should follow a standardized schema (realized as data specification template).
 
- [http://admin-shell.io/aas/2/0/ConceptDictionary/conceptDescription](http://admin-shell.io/aas/2/0/ConceptDictionary/conceptDescription) The attribute conceptDescription of the ConceptDictionary class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/ConceptDictionary/conceptDescription](http://admin-shell.io/aas/2/0/ConceptDictionary/conceptDescription) The attribute conceptDescription of the ConceptDictionary class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Constraint
  A constraint is used to further qualify an element.
@@ -306,7 +306,7 @@ The AAS itself can also define its own dictionary that contains semantic definit
 ## DataSpecification/content
  
 
- [http://admin-shell.io/aas/2/0/DataSpecification/content](http://admin-shell.io/aas/2/0/DataSpecification/content) The attribute content of the DataSpecification class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/DataSpecification/content](http://admin-shell.io/aas/2/0/DataSpecification/content) The attribute content of the DataSpecification class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## DataSpecificationContent
  
@@ -316,27 +316,32 @@ The AAS itself can also define its own dictionary that contains semantic definit
 ## DataSpecificationContent/definition
  
 
- [http://admin-shell.io/aas/2/0/DataSpecificationContent/definition](http://admin-shell.io/aas/2/0/DataSpecificationContent/definition) The attribute definition of the DataSpecificationContent class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/DataSpecificationContent/definition](http://admin-shell.io/aas/2/0/DataSpecificationContent/definition) The attribute definition of the DataSpecificationContent class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## DataSpecificationContent/sourceOfDefinition
  
 
- [http://admin-shell.io/aas/2/0/DataSpecificationContent/sourceOfDefinition](http://admin-shell.io/aas/2/0/DataSpecificationContent/sourceOfDefinition) The attribute sourceOfDefinition of the DataSpecificationContent class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/DataSpecificationContent/sourceOfDefinition](http://admin-shell.io/aas/2/0/DataSpecificationContent/sourceOfDefinition) The attribute sourceOfDefinition of the DataSpecificationContent class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Entity
  An entity is a submodel element that is used to model entities.
 
  [http://admin-shell.io/aas/2/0/Entity](http://admin-shell.io/aas/2/0/Entity) The Entity class as defined in Details of the 'Asset Administration Shell - Part 1 - Version 2.0'.
 
+## Entity/asset
+ Reference to the asset the entity is representing.
+
+ [http://admin-shell.io/aas/2/0/Entity/asset](http://admin-shell.io/aas/2/0/Entity/asset) The attribute asset of the Entity class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
+
 ## Entity/entityType
  Describes whether the entity is a co-managed entity or a self-managed entity.
 
- [http://admin-shell.io/aas/2/0/Entity/entityType](http://admin-shell.io/aas/2/0/Entity/entityType) The attribute entityType of the Entity class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Entity/entityType](http://admin-shell.io/aas/2/0/Entity/entityType) The attribute entityType of the Entity class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Entity/statement
  Describes statements applicable to the entity by a set of submodel elements, typically with a qualified value.
 
- [http://admin-shell.io/aas/2/0/Entity/statement](http://admin-shell.io/aas/2/0/Entity/statement) The attribute statement of the Entity class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Entity/statement](http://admin-shell.io/aas/2/0/Entity/statement) The attribute statement of the Entity class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## EntityType
  Enumeration for denoting whether an entity is a self-managed entity or a co-managed entity.
@@ -346,12 +351,12 @@ The AAS itself can also define its own dictionary that contains semantic definit
 ## EntityType/CO_MANAGED_ENTITY
  For co-managed entities there is no separate AAS. Co-managed entities need to be part of a self-managed entity.
 
- [http://admin-shell.io/aas/2/0/EntityType/CO_MANAGED_ENTITY](http://admin-shell.io/aas/2/0/EntityType/CO_MANAGED_ENTITY) The NamedIndividual CO_MANAGED_ENTITY of the EntityType class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/EntityType/CO_MANAGED_ENTITY](http://admin-shell.io/aas/2/0/EntityType/CO_MANAGED_ENTITY) The NamedIndividual CO_MANAGED_ENTITY of the EntityType class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## EntityType/SELF_MANAGED_ENTITY
  Self-Managed Entities have their own AAS but can be part of the bill of material of a composite self-managed entity. The asset of an I4.0 Component is a self-managed entity per definition.
 
- [http://admin-shell.io/aas/2/0/EntityType/SELF_MANAGED_ENTITY](http://admin-shell.io/aas/2/0/EntityType/SELF_MANAGED_ENTITY) The NamedIndividual SELF_MANAGED_ENTITY of the EntityType class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/EntityType/SELF_MANAGED_ENTITY](http://admin-shell.io/aas/2/0/EntityType/SELF_MANAGED_ENTITY) The NamedIndividual SELF_MANAGED_ENTITY of the EntityType class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Event
  
@@ -376,12 +381,12 @@ The AAS itself can also define its own dictionary that contains semantic definit
 ## File/mimeType
  Mime type of the content of the File. The mime type states which file extension the file has. Valid values are e.g. 'application/json', 'application/xls', 'image/jpg' The allowed values are defined as in RFC2046. 
 
- [http://admin-shell.io/aas/2/0/File/mimeType](http://admin-shell.io/aas/2/0/File/mimeType) The attribute mimeType of the File class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/File/mimeType](http://admin-shell.io/aas/2/0/File/mimeType) The attribute mimeType of the File class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## File/value
  The value, for example an IRDI if the idType=IRDI, a literal, or anything else.
 
- [http://admin-shell.io/aas/2/0/File/value](http://admin-shell.io/aas/2/0/File/value) The attribute value of the File class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/File/value](http://admin-shell.io/aas/2/0/File/value) The attribute value of the File class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Formula
  
@@ -391,7 +396,7 @@ The AAS itself can also define its own dictionary that contains semantic definit
 ## Formula/dependsOn
  A formula may depend on referable or even external global elements - assumed that can be referenced and their value may be evaluated - that are used in the logical expression.
 
- [http://admin-shell.io/aas/2/0/Formula/dependsOn](http://admin-shell.io/aas/2/0/Formula/dependsOn) The attribute dependsOn of the Formula class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Formula/dependsOn](http://admin-shell.io/aas/2/0/Formula/dependsOn) The attribute dependsOn of the Formula class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## HasDataSpecification
  Element that can have be extended by using data specification templates. A data specification template defines the additional attributes an element may or shall have. The data specifications used are explicitly specified with their id.
@@ -401,7 +406,13 @@ The AAS itself can also define its own dictionary that contains semantic definit
 ## HasDataSpecification/dataSpecification
  Global reference to the data specification template used by the element.
 
- [http://admin-shell.io/aas/2/0/HasDataSpecification/dataSpecification](http://admin-shell.io/aas/2/0/HasDataSpecification/dataSpecification) The attribute dataSpecification of the HasDataSpecification class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/HasDataSpecification/dataSpecification](http://admin-shell.io/aas/2/0/HasDataSpecification/dataSpecification) The attribute dataSpecification of the HasDataSpecification class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
+
+## HasDataSpecification/embeddedDataSpecification
+ 
+
+ [http://admin-shell.io/aas/2/0/HasDataSpecification/embeddedDataSpecification](http://admin-shell.io/aas/2/0/HasDataSpecification/embeddedDataSpecification) The attribute embeddedDataSpecification of the HasDataSpecification class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
+
 
 ## HasKind
  An element with a kind is an element that can either represent a type or an instance. Default for an element is that it is representing an instance.
@@ -411,7 +422,7 @@ The AAS itself can also define its own dictionary that contains semantic definit
 ## HasKind/kind
  ModelingKind of the element: either type or instance.
 
- [http://admin-shell.io/aas/2/0/HasKind/kind](http://admin-shell.io/aas/2/0/HasKind/kind) The attribute kind of the HasKind class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/HasKind/kind](http://admin-shell.io/aas/2/0/HasKind/kind) The attribute kind of the HasKind class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## HasSemantics
  Element that can have a semantic definition. Identifier of the semantic definition of the element. It is called semantic id of the element. The semantic id may either reference an external global id or it may reference a referable model element of kind=Type that defines the semantics of the element.
@@ -423,7 +434,7 @@ The AAS itself can also define its own dictionary that contains semantic definit
 
 Points to the Expression Semantic of the Submodels
 
- [http://admin-shell.io/aas/2/0/HasSemantics/semanticId](http://admin-shell.io/aas/2/0/HasSemantics/semanticId) The attribute semanticId of the HasSemantics class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/HasSemantics/semanticId](http://admin-shell.io/aas/2/0/HasSemantics/semanticId) The attribute semanticId of the HasSemantics class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Identifiable
  An element that has a globally unique identifier.
@@ -433,12 +444,12 @@ Points to the Expression Semantic of the Submodels
 ## Identifiable/administration
  Administrative information of an identifiable element.
 
- [http://admin-shell.io/aas/2/0/Identifiable/administration](http://admin-shell.io/aas/2/0/Identifiable/administration) The attribute administration of the Identifiable class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Identifiable/administration](http://admin-shell.io/aas/2/0/Identifiable/administration) The attribute administration of the Identifiable class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Identifiable/identification
  The globally unique identification of the element.
 
- [http://admin-shell.io/aas/2/0/Identifiable/identification](http://admin-shell.io/aas/2/0/Identifiable/identification) The attribute identification of the Identifiable class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Identifiable/identification](http://admin-shell.io/aas/2/0/Identifiable/identification) The attribute identification of the Identifiable class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## IdentifiableElement
  Enumeration of all identifiable elements within an asset administration shell that are not identifiable
@@ -448,22 +459,22 @@ Points to the Expression Semantic of the Submodels
 ## IdentifiableElement/ASSET_ADMINISTRATION_SHELL_IDENTIFIABLE_ELEMENT
  
 
- [http://admin-shell.io/aas/2/0/IdentifiableElement/ASSET_ADMINISTRATION_SHELL_IDENTIFIABLE_ELEMENT](http://admin-shell.io/aas/2/0/IdentifiableElement/ASSET_ADMINISTRATION_SHELL_IDENTIFIABLE_ELEMENT) The IdentifiableElement ASSET_ADMINISTRATION_SHELL_IDENTIFIABLE_ELEMENT of the IdentifiableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/IdentifiableElement/ASSET_ADMINISTRATION_SHELL_IDENTIFIABLE_ELEMENT](http://admin-shell.io/aas/2/0/IdentifiableElement/ASSET_ADMINISTRATION_SHELL_IDENTIFIABLE_ELEMENT) The IdentifiableElement ASSET_ADMINISTRATION_SHELL_IDENTIFIABLE_ELEMENT of the IdentifiableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## IdentifiableElement/ASSET_IDENTIFIABLE_ELEMENT
  
 
- [http://admin-shell.io/aas/2/0/IdentifiableElement/ASSET_IDENTIFIABLE_ELEMENT](http://admin-shell.io/aas/2/0/IdentifiableElement/ASSET_IDENTIFIABLE_ELEMENT) The IdentifiableElement ASSET_IDENTIFIABLE_ELEMENT of the IdentifiableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/IdentifiableElement/ASSET_IDENTIFIABLE_ELEMENT](http://admin-shell.io/aas/2/0/IdentifiableElement/ASSET_IDENTIFIABLE_ELEMENT) The IdentifiableElement ASSET_IDENTIFIABLE_ELEMENT of the IdentifiableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## IdentifiableElement/CONCEPT_DESCRIPTION_IDENTIFIABLE_ELEMENT
  
 
- [http://admin-shell.io/aas/2/0/IdentifiableElement/CONCEPT_DESCRIPTION_IDENTIFIABLE_ELEMENT](http://admin-shell.io/aas/2/0/IdentifiableElement/CONCEPT_DESCRIPTION_IDENTIFIABLE_ELEMENT) The IdentifiableElement CONCEPT_DESCRIPTION_IDENTIFIABLE_ELEMENT of the IdentifiableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/IdentifiableElement/CONCEPT_DESCRIPTION_IDENTIFIABLE_ELEMENT](http://admin-shell.io/aas/2/0/IdentifiableElement/CONCEPT_DESCRIPTION_IDENTIFIABLE_ELEMENT) The IdentifiableElement CONCEPT_DESCRIPTION_IDENTIFIABLE_ELEMENT of the IdentifiableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## IdentifiableElement/SUBMODEL_IDENTIFIABLE_ELEMENT
  
 
- [http://admin-shell.io/aas/2/0/IdentifiableElement/SUBMODEL_IDENTIFIABLE_ELEMENT](http://admin-shell.io/aas/2/0/IdentifiableElement/SUBMODEL_IDENTIFIABLE_ELEMENT) The IdentifiableElement SUBMODEL_IDENTIFIABLE_ELEMENT of the IdentifiableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/IdentifiableElement/SUBMODEL_IDENTIFIABLE_ELEMENT](http://admin-shell.io/aas/2/0/IdentifiableElement/SUBMODEL_IDENTIFIABLE_ELEMENT) The IdentifiableElement SUBMODEL_IDENTIFIABLE_ELEMENT of the IdentifiableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Identifier
  Used to uniquely identify an entity by using an identifier.
@@ -473,12 +484,12 @@ Points to the Expression Semantic of the Submodels
 ## Identifier/id
  A globally unique identifier which might not be a URI. Its type is defined in idType.
 
- [http://admin-shell.io/aas/2/0/Identifier/id](http://admin-shell.io/aas/2/0/Identifier/id) The attribute id of the Identifier class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Identifier/id](http://admin-shell.io/aas/2/0/Identifier/id) The attribute id of the Identifier class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Identifier/idType
  Type of the Identifier, e.g. IRI, IRDI etc. The supported Identifier types are defined in the enumeration 'IdentifierType'.
 
- [http://admin-shell.io/aas/2/0/Identifier/idType](http://admin-shell.io/aas/2/0/Identifier/idType) The attribute idType of the Identifier class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Identifier/idType](http://admin-shell.io/aas/2/0/Identifier/idType) The attribute idType of the Identifier class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## IdentifierType
  Enumeration of different types of Identifiers for global identification
@@ -488,17 +499,17 @@ Points to the Expression Semantic of the Submodels
 ## IdentifierType/CUSTOM_IDENTIFIER_TYPE
  Custom identifiers like GUIDs (globally unique Identifiers)
 
- [http://admin-shell.io/aas/2/0/IdentifierType/CUSTOM_IDENTIFIER_TYPE](http://admin-shell.io/aas/2/0/IdentifierType/CUSTOM_IDENTIFIER_TYPE) The IdentifierType CUSTOM_IDENTIFIER_TYPE of the IdentifierType class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/IdentifierType/CUSTOM_IDENTIFIER_TYPE](http://admin-shell.io/aas/2/0/IdentifierType/CUSTOM_IDENTIFIER_TYPE) The IdentifierType CUSTOM_IDENTIFIER_TYPE of the IdentifierType class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## IdentifierType/IRDI_IDENTIFIER_TYPE
  IRDI according to ISO29002-5 as an Identifier scheme for properties and classifications.
 
- [http://admin-shell.io/aas/2/0/IdentifierType/IRDI_IDENTIFIER_TYPE](http://admin-shell.io/aas/2/0/IdentifierType/IRDI_IDENTIFIER_TYPE) The IdentifierType IRDI_IDENTIFIER_TYPE of the IdentifierType class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/IdentifierType/IRDI_IDENTIFIER_TYPE](http://admin-shell.io/aas/2/0/IdentifierType/IRDI_IDENTIFIER_TYPE) The IdentifierType IRDI_IDENTIFIER_TYPE of the IdentifierType class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## IdentifierType/IRI_IDENTIFIER_TYPE
  IRI. Should only be used if unicode symbols are used that are not allowed in URI.
 
- [http://admin-shell.io/aas/2/0/IdentifierType/IRI_IDENTIFIER_TYPE](http://admin-shell.io/aas/2/0/IdentifierType/IRI_IDENTIFIER_TYPE) The IdentifierType IRI_IDENTIFIER_TYPE of the IdentifierType class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/IdentifierType/IRI_IDENTIFIER_TYPE](http://admin-shell.io/aas/2/0/IdentifierType/IRI_IDENTIFIER_TYPE) The IdentifierType IRI_IDENTIFIER_TYPE of the IdentifierType class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Key
  A key is a reference to an element by its id.
@@ -508,22 +519,22 @@ Points to the Expression Semantic of the Submodels
 ## Key/index
  The index attribute states the position of each key instance in the sequence of all other related keys.
 
- [http://admin-shell.io/aas/2/0/Key/index](http://admin-shell.io/aas/2/0/Key/index) The attribute index of the Key class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Key/index](http://admin-shell.io/aas/2/0/Key/index) The attribute index of the Key class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Key/keyElement
  
 
- [http://admin-shell.io/aas/2/0/Key/keyElement](http://admin-shell.io/aas/2/0/Key/keyElement) The attribute keyElement of the Key class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Key/keyElement](http://admin-shell.io/aas/2/0/Key/keyElement) The attribute keyElement of the Key class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Key/local
  Denotes if the key references a model element of the same AAS (=true) or not (=false). In case of local = false the key may reference a model element of another AAS or an entity outside any AAS that has a global unique id.
 
- [http://admin-shell.io/aas/2/0/Key/local](http://admin-shell.io/aas/2/0/Key/local) The attribute local of the Key class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Key/local](http://admin-shell.io/aas/2/0/Key/local) The attribute local of the Key class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Key/value
  The value, for example an IRDI if the idType=IRDI, a literal, or anything else.
 
- [http://admin-shell.io/aas/2/0/Key/value](http://admin-shell.io/aas/2/0/Key/value) The attribute value of the Key class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Key/value](http://admin-shell.io/aas/2/0/Key/value) The attribute value of the Key class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## KeyElement
  Enumeration of different key value types within a key. Contains KeyElements, ReferableElements, and IdentifiableElements.
@@ -533,12 +544,12 @@ Points to the Expression Semantic of the Submodels
 ## KeyElement/FRAGMENT_REFERENCE_KEY_ELEMENT
  
 
- [http://admin-shell.io/aas/2/0/KeyElement/FRAGMENT_REFERENCE_KEY_ELEMENT](http://admin-shell.io/aas/2/0/KeyElement/FRAGMENT_REFERENCE_KEY_ELEMENT) The KeyElement FRAGMENT_REFERENCE_KEY_ELEMENT of the KeyElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/KeyElement/FRAGMENT_REFERENCE_KEY_ELEMENT](http://admin-shell.io/aas/2/0/KeyElement/FRAGMENT_REFERENCE_KEY_ELEMENT) The KeyElement FRAGMENT_REFERENCE_KEY_ELEMENT of the KeyElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## KeyElement/GLOBAL_REFERENCE_KEY_ELEMENT
  reference to an element not belonging to an asset administration shell
 
- [http://admin-shell.io/aas/2/0/KeyElement/GLOBAL_REFERENCE_KEY_ELEMENT](http://admin-shell.io/aas/2/0/KeyElement/GLOBAL_REFERENCE_KEY_ELEMENT) The KeyElement GLOBAL_REFERENCE_KEY_ELEMENT of the KeyElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/KeyElement/GLOBAL_REFERENCE_KEY_ELEMENT](http://admin-shell.io/aas/2/0/KeyElement/GLOBAL_REFERENCE_KEY_ELEMENT) The KeyElement GLOBAL_REFERENCE_KEY_ELEMENT of the KeyElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## KeyType
  Enumeration of different key value types within a key. Contains IdentifierType and LocalKeyType.
@@ -553,12 +564,12 @@ Points to the Expression Semantic of the Submodels
 ## LocalKeyType/FRAGMENT_ID_LOCAL_KEY_TYPE
  Identifier of a fragment within a file
 
- [http://admin-shell.io/aas/2/0/LocalKeyType/FRAGMENT_ID_LOCAL_KEY_TYPE](http://admin-shell.io/aas/2/0/LocalKeyType/FRAGMENT_ID_LOCAL_KEY_TYPE) The LocalKeyType FRAGMENT_ID_LOCAL_KEY_TYPE of the LocalKeyType class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/LocalKeyType/FRAGMENT_ID_LOCAL_KEY_TYPE](http://admin-shell.io/aas/2/0/LocalKeyType/FRAGMENT_ID_LOCAL_KEY_TYPE) The LocalKeyType FRAGMENT_ID_LOCAL_KEY_TYPE of the LocalKeyType class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## LocalKeyType/IDSHORT_LOCAL_KEY_TYPE
  idShort of a referable element
 
- [http://admin-shell.io/aas/2/0/LocalKeyType/IDSHORT_LOCAL_KEY_TYPE](http://admin-shell.io/aas/2/0/LocalKeyType/IDSHORT_LOCAL_KEY_TYPE) The LocalKeyType IDSHORT_LOCAL_KEY_TYPE of the LocalKeyType class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/LocalKeyType/IDSHORT_LOCAL_KEY_TYPE](http://admin-shell.io/aas/2/0/LocalKeyType/IDSHORT_LOCAL_KEY_TYPE) The LocalKeyType IDSHORT_LOCAL_KEY_TYPE of the LocalKeyType class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## ModelingKind
  Enumeration for denoting whether an element is a type or an instance.
@@ -568,12 +579,12 @@ Points to the Expression Semantic of the Submodels
 ## ModelingKind/INSTANCE
  Concrete, clearly identifiable component of a certain template.
 
- [http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE](http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE) The NamedIndividual INSTANCE of the ModelingKind class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE](http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE) The NamedIndividual INSTANCE of the ModelingKind class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## ModelingKind/TEMPLATE
  Software element which specifies the common attributes shared by all instances of the template.
 
- [http://admin-shell.io/aas/2/0/ModelingKind/TEMPLATE](http://admin-shell.io/aas/2/0/ModelingKind/TEMPLATE) The NamedIndividual TEMPLATE of the ModelingKind class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/ModelingKind/TEMPLATE](http://admin-shell.io/aas/2/0/ModelingKind/TEMPLATE) The NamedIndividual TEMPLATE of the ModelingKind class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## MultiLanguageProperty
  A property is a data element that has a multi language value.
@@ -583,12 +594,12 @@ Points to the Expression Semantic of the Submodels
 ## MultiLanguageProperty/propertyCategory
  The following categories are defined for properties and multi-language properties: aas:CONSTANT, aas:PARAMETER, and aas:VARIABLE.
 
- [http://admin-shell.io/aas/2/0/MultiLanguageProperty/propertyCategory](http://admin-shell.io/aas/2/0/MultiLanguageProperty/propertyCategory) The attribute propertyCategory of the MultiLanguageProperty class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/MultiLanguageProperty/propertyCategory](http://admin-shell.io/aas/2/0/MultiLanguageProperty/propertyCategory) The attribute propertyCategory of the MultiLanguageProperty class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## MultiLanguageProperty/value
  The value, for example an IRDI if the idType=IRDI, a literal, or anything else.
 
- [http://admin-shell.io/aas/2/0/MultiLanguageProperty/value](http://admin-shell.io/aas/2/0/MultiLanguageProperty/value) The attribute value of the MultiLanguageProperty class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/MultiLanguageProperty/value](http://admin-shell.io/aas/2/0/MultiLanguageProperty/value) The attribute value of the MultiLanguageProperty class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## ObjectAttributes
  A set of data elements that describe object attributes. These attributes need to refer to a data element within an existing submodel.
@@ -598,7 +609,7 @@ Points to the Expression Semantic of the Submodels
 ## ObjectAttributes/objectAttribute
  A data elements that further classifies an object.
 
- [http://admin-shell.io/aas/2/0/ObjectAttributes/objectAttribute](http://admin-shell.io/aas/2/0/ObjectAttributes/objectAttribute) The attribute objectAttribute of the ObjectAttributes class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/ObjectAttributes/objectAttribute](http://admin-shell.io/aas/2/0/ObjectAttributes/objectAttribute) The attribute objectAttribute of the ObjectAttributes class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Operation
  An operation is a submodel element with input and output variables.
@@ -608,17 +619,17 @@ Points to the Expression Semantic of the Submodels
 ## Operation/inoutputVariable
  Parameter that is input and output of the operation.
 
- [http://admin-shell.io/aas/2/0/Operation/inoutputVariable](http://admin-shell.io/aas/2/0/Operation/inoutputVariable) The attribute inoutputVariable of the Operation class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Operation/inoutputVariable](http://admin-shell.io/aas/2/0/Operation/inoutputVariable) The attribute inoutputVariable of the Operation class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Operation/inputVariable
  Input parameter of the operation.
 
- [http://admin-shell.io/aas/2/0/Operation/inputVariable](http://admin-shell.io/aas/2/0/Operation/inputVariable) The attribute inputVariable of the Operation class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Operation/inputVariable](http://admin-shell.io/aas/2/0/Operation/inputVariable) The attribute inputVariable of the Operation class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Operation/outputVariable
  Output parameter of the operation.
 
- [http://admin-shell.io/aas/2/0/Operation/outputVariable](http://admin-shell.io/aas/2/0/Operation/outputVariable) The attribute outputVariable of the Operation class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Operation/outputVariable](http://admin-shell.io/aas/2/0/Operation/outputVariable) The attribute outputVariable of the Operation class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## OperationVariable
  
@@ -628,7 +639,7 @@ Points to the Expression Semantic of the Submodels
 ## OperationVariable/value
  The value, for example an IRDI if the idType=IRDI, a literal, or anything else.
 
- [http://admin-shell.io/aas/2/0/OperationVariable/value](http://admin-shell.io/aas/2/0/OperationVariable/value) The attribute value of the OperationVariable class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/OperationVariable/value](http://admin-shell.io/aas/2/0/OperationVariable/value) The attribute value of the OperationVariable class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Permission
  Description of a single permission.
@@ -638,12 +649,12 @@ Points to the Expression Semantic of the Submodels
 ## Permission/kindOfPermission
  Description of the kind of permission. Possible kind of permission also include the denial of the permission.
 
- [http://admin-shell.io/aas/2/0/Permission/kindOfPermission](http://admin-shell.io/aas/2/0/Permission/kindOfPermission) The attribute kindOfPermission of the Permission class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Permission/kindOfPermission](http://admin-shell.io/aas/2/0/Permission/kindOfPermission) The attribute kindOfPermission of the Permission class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Permission/permission
  Reference to a property that defines the semantics of the permission.
 
- [http://admin-shell.io/aas/2/0/Permission/permission](http://admin-shell.io/aas/2/0/Permission/permission) The attribute permission of the Permission class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Permission/permission](http://admin-shell.io/aas/2/0/Permission/permission) The attribute permission of the Permission class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## PermissionKind
  Enumeration of the kind of permissions that is given to the assignment of a permission to a subject.
@@ -653,22 +664,22 @@ Points to the Expression Semantic of the Submodels
 ## PermissionKind/ALLOW
  Allow the permission given to the subject.
 
- [http://admin-shell.io/aas/2/0/PermissionKind/ALLOW](http://admin-shell.io/aas/2/0/PermissionKind/ALLOW) The PermissionKind ALLOW of the PermissionKind class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/PermissionKind/ALLOW](http://admin-shell.io/aas/2/0/PermissionKind/ALLOW) The PermissionKind ALLOW of the PermissionKind class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## PermissionKind/DENY
  Explicitly deny the permission given to the subject.
 
- [http://admin-shell.io/aas/2/0/PermissionKind/DENY](http://admin-shell.io/aas/2/0/PermissionKind/DENY) The PermissionKind DENY of the PermissionKind class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/PermissionKind/DENY](http://admin-shell.io/aas/2/0/PermissionKind/DENY) The PermissionKind DENY of the PermissionKind class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## PermissionKind/NOT_APPLICABLE
  The permission is not applicable to the subject.
 
- [http://admin-shell.io/aas/2/0/PermissionKind/NOT_APPLICABLE](http://admin-shell.io/aas/2/0/PermissionKind/NOT_APPLICABLE) The PermissionKind NOT_APPLICABLE of the PermissionKind class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/PermissionKind/NOT_APPLICABLE](http://admin-shell.io/aas/2/0/PermissionKind/NOT_APPLICABLE) The PermissionKind NOT_APPLICABLE of the PermissionKind class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## PermissionKind/UNDEFINED
  It is undefined whether the permission is allowed, not applicable or denied to the subject.
 
- [http://admin-shell.io/aas/2/0/PermissionKind/UNDEFINED](http://admin-shell.io/aas/2/0/PermissionKind/UNDEFINED) The PermissionKind UNDEFINED of the PermissionKind class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/PermissionKind/UNDEFINED](http://admin-shell.io/aas/2/0/PermissionKind/UNDEFINED) The PermissionKind UNDEFINED of the PermissionKind class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## PermissionsPerObject
  Table that defines access permissions for a specified object. The object is any referable element in the AAS. Additionally object attributes can be defined that further specify the kind of object the permissions apply to.
@@ -678,17 +689,17 @@ Points to the Expression Semantic of the Submodels
 ## PermissionsPerObject/object
  Element to which permission shall be assigned.
 
- [http://admin-shell.io/aas/2/0/PermissionsPerObject/object](http://admin-shell.io/aas/2/0/PermissionsPerObject/object) The attribute object of the PermissionsPerObject class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/PermissionsPerObject/object](http://admin-shell.io/aas/2/0/PermissionsPerObject/object) The attribute object of the PermissionsPerObject class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## PermissionsPerObject/objectPermission
  Permissions assigned to the object. The permissions hold for all subjects as specified in the access permission rule.
 
- [http://admin-shell.io/aas/2/0/PermissionsPerObject/objectPermission](http://admin-shell.io/aas/2/0/PermissionsPerObject/objectPermission) The attribute objectPermission of the PermissionsPerObject class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/PermissionsPerObject/objectPermission](http://admin-shell.io/aas/2/0/PermissionsPerObject/objectPermission) The attribute objectPermission of the PermissionsPerObject class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## PermissionsPerObject/targetObjectAttributes
  Target object attributes that need to be fulfilled so that the access permissions apply to the accessing subject.
 
- [http://admin-shell.io/aas/2/0/PermissionsPerObject/targetObjectAttributes](http://admin-shell.io/aas/2/0/PermissionsPerObject/targetObjectAttributes) The attribute targetObjectAttributes of the PermissionsPerObject class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/PermissionsPerObject/targetObjectAttributes](http://admin-shell.io/aas/2/0/PermissionsPerObject/targetObjectAttributes) The attribute targetObjectAttributes of the PermissionsPerObject class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## PolicyAdministrationPoint
  Definition of a security administration point (PDP).
@@ -698,12 +709,12 @@ Points to the Expression Semantic of the Submodels
 ## PolicyAdministrationPoint/externalAccessControl
  Endpoint to an external access control defining a policy administration point to be used by the AAS.
 
- [http://admin-shell.io/aas/2/0/PolicyAdministrationPoint/externalAccessControl](http://admin-shell.io/aas/2/0/PolicyAdministrationPoint/externalAccessControl) The attribute externalAccessControl of the PolicyAdministrationPoint class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/PolicyAdministrationPoint/externalAccessControl](http://admin-shell.io/aas/2/0/PolicyAdministrationPoint/externalAccessControl) The attribute externalAccessControl of the PolicyAdministrationPoint class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## PolicyAdministrationPoint/localAccessControl
  The policy administration point of access control as realized by the AAS itself.
 
- [http://admin-shell.io/aas/2/0/PolicyAdministrationPoint/localAccessControl](http://admin-shell.io/aas/2/0/PolicyAdministrationPoint/localAccessControl) The attribute localAccessControl of the PolicyAdministrationPoint class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/PolicyAdministrationPoint/localAccessControl](http://admin-shell.io/aas/2/0/PolicyAdministrationPoint/localAccessControl) The attribute localAccessControl of the PolicyAdministrationPoint class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## PolicyDecisionPoint
  Defines the security policy decision points (PDP). 
@@ -718,12 +729,12 @@ Points to the Expression Semantic of the Submodels
 ## PolicyEnforcementPoint/externalPolicyDecisionPoint
  If externalPolicyDecisionPoints True then Endpoints to external available decision points taking into consideration for access control for the AAS need to be configured.
 
- [http://admin-shell.io/aas/2/0/PolicyEnforcementPoint/externalPolicyDecisionPoint](http://admin-shell.io/aas/2/0/PolicyEnforcementPoint/externalPolicyDecisionPoint) The attribute externalPolicyDecisionPoint of the PolicyEnforcementPoint class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/PolicyEnforcementPoint/externalPolicyDecisionPoint](http://admin-shell.io/aas/2/0/PolicyEnforcementPoint/externalPolicyDecisionPoint) The attribute externalPolicyDecisionPoint of the PolicyEnforcementPoint class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## PolicyEnforcementPoint/externalPolicyEnforcementPoint
  If externalPolicyEnforcementPoint True then an Endpoint to external available enforcement point taking needs to be configured for the AAS.
 
- [http://admin-shell.io/aas/2/0/PolicyEnforcementPoint/externalPolicyEnforcementPoint](http://admin-shell.io/aas/2/0/PolicyEnforcementPoint/externalPolicyEnforcementPoint) The attribute externalPolicyEnforcementPoint of the PolicyEnforcementPoint class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/PolicyEnforcementPoint/externalPolicyEnforcementPoint](http://admin-shell.io/aas/2/0/PolicyEnforcementPoint/externalPolicyEnforcementPoint) The attribute externalPolicyEnforcementPoint of the PolicyEnforcementPoint class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## PolicyInformationPoints
  Defines the security policy information points (PIP). Serves as the retrieval source of attributes, or the data required for policy evaluation to provide the information needed by the policy decision point to make the decisions.
@@ -733,12 +744,12 @@ Points to the Expression Semantic of the Submodels
 ## PolicyInformationPoints/externalInformationPoint
  Endpoints to external available information points taking into consideration for access control for the AAS.
 
- [http://admin-shell.io/aas/2/0/PolicyInformationPoints/externalInformationPoint](http://admin-shell.io/aas/2/0/PolicyInformationPoints/externalInformationPoint) The attribute externalInformationPoint of the PolicyInformationPoints class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/PolicyInformationPoints/externalInformationPoint](http://admin-shell.io/aas/2/0/PolicyInformationPoints/externalInformationPoint) The attribute externalInformationPoint of the PolicyInformationPoints class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## PolicyInformationPoints/internalInformationPoint
  References to submodels defining information used by security access permission rules.
 
- [http://admin-shell.io/aas/2/0/PolicyInformationPoints/internalInformationPoint](http://admin-shell.io/aas/2/0/PolicyInformationPoints/internalInformationPoint) The attribute internalInformationPoint of the PolicyInformationPoints class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/PolicyInformationPoints/internalInformationPoint](http://admin-shell.io/aas/2/0/PolicyInformationPoints/internalInformationPoint) The attribute internalInformationPoint of the PolicyInformationPoints class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Property
  A property is a data element that has a single value.
@@ -748,17 +759,17 @@ Points to the Expression Semantic of the Submodels
 ## Property/propertyCategory
  The following categories are defined for properties and multi-language properties: aas:CONSTANT, aas:PARAMETER, and aas:VARIABLE.
 
- [http://admin-shell.io/aas/2/0/Property/propertyCategory](http://admin-shell.io/aas/2/0/Property/propertyCategory) The attribute propertyCategory of the Property class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Property/propertyCategory](http://admin-shell.io/aas/2/0/Property/propertyCategory) The attribute propertyCategory of the Property class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Property/propertyValueId
  Reference to the global unqiue id of a coded value.
 
- [http://admin-shell.io/aas/2/0/Property/propertyValueId](http://admin-shell.io/aas/2/0/Property/propertyValueId) The attribute propertyValueId of the Property class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Property/propertyValueId](http://admin-shell.io/aas/2/0/Property/propertyValueId) The attribute propertyValueId of the Property class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Property/value
  The value, for example an IRDI if the idType=IRDI, a literal, or anything else.
 
- [http://admin-shell.io/aas/2/0/Property/value](http://admin-shell.io/aas/2/0/Property/value) The attribute value of the Property class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Property/value](http://admin-shell.io/aas/2/0/Property/value) The attribute value of the Property class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Qualifiable
  Additional qualification of a qualifiable element.
@@ -768,7 +779,7 @@ Points to the Expression Semantic of the Submodels
 ## Qualifiable/qualifier
  Additional qualification of a qualifiable element.
 
- [http://admin-shell.io/aas/2/0/Qualifiable/qualifier](http://admin-shell.io/aas/2/0/Qualifiable/qualifier) The attribute qualifier of the Qualifiable class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Qualifiable/qualifier](http://admin-shell.io/aas/2/0/Qualifiable/qualifier) The attribute qualifier of the Qualifiable class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Qualifier
  A qualifier is a type-value pair that makes additional statements w.r.t. the value of the element.
@@ -778,22 +789,22 @@ Points to the Expression Semantic of the Submodels
 ## Qualifier/qualifierType
  The qualifier type describes the type of the qualifier that is applied to the element.
 
- [http://admin-shell.io/aas/2/0/Qualifier/qualifierType](http://admin-shell.io/aas/2/0/Qualifier/qualifierType) The attribute qualifierType of the Qualifier class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Qualifier/qualifierType](http://admin-shell.io/aas/2/0/Qualifier/qualifierType) The attribute qualifierType of the Qualifier class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Qualifier/qualifierValue
  The qualifier value is the value of the qualifier.
 
- [http://admin-shell.io/aas/2/0/Qualifier/qualifierValue](http://admin-shell.io/aas/2/0/Qualifier/qualifierValue) The attribute qualifierValue of the Qualifier class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Qualifier/qualifierValue](http://admin-shell.io/aas/2/0/Qualifier/qualifierValue) The attribute qualifierValue of the Qualifier class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Qualifier/qualifierValueId
  Reference to the global unqiue id of a coded value.
 
- [http://admin-shell.io/aas/2/0/Qualifier/qualifierValueId](http://admin-shell.io/aas/2/0/Qualifier/qualifierValueId) The attribute qualifierValueId of the Qualifier class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Qualifier/qualifierValueId](http://admin-shell.io/aas/2/0/Qualifier/qualifierValueId) The attribute qualifierValueId of the Qualifier class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Qualifier/value
  The value, for example an IRDI if the idType=IRDI, a literal, or anything else.
 
- [http://admin-shell.io/aas/2/0/Qualifier/value](http://admin-shell.io/aas/2/0/Qualifier/value) The attribute value of the Qualifier class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Qualifier/value](http://admin-shell.io/aas/2/0/Qualifier/value) The attribute value of the Qualifier class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Range
  An element that is referable by its idShort. This id is not globally unique. This id is unique within the name space of the element.
@@ -803,12 +814,12 @@ Points to the Expression Semantic of the Submodels
 ## Range/max
  The maximum value of the range.
 
- [http://admin-shell.io/aas/2/0/Range/max](http://admin-shell.io/aas/2/0/Range/max) The attribute max of the Range class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Range/max](http://admin-shell.io/aas/2/0/Range/max) The attribute max of the Range class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Range/min
  The minimum value of the range.
 
- [http://admin-shell.io/aas/2/0/Range/min](http://admin-shell.io/aas/2/0/Range/min) The attribute min of the Range class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Range/min](http://admin-shell.io/aas/2/0/Range/min) The attribute min of the Range class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Referable
  An element that is referable by its idShort. This id is not globally unique. This id is unique within the name space of the element.
@@ -818,22 +829,22 @@ Points to the Expression Semantic of the Submodels
 ## Referable/category
  The category is a value that gives further meta information w.r.t. to the class of the element. It affects the expected existence of attributes and the applicability of constraints.
 
- [http://admin-shell.io/aas/2/0/Referable/category](http://admin-shell.io/aas/2/0/Referable/category) The attribute category of the Referable class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Referable/category](http://admin-shell.io/aas/2/0/Referable/category) The attribute category of the Referable class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Referable/description
  Description or comments on the element. The description can be provided in several languages.
 
- [http://admin-shell.io/aas/2/0/Referable/description](http://admin-shell.io/aas/2/0/Referable/description) The attribute description of the Referable class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Referable/description](http://admin-shell.io/aas/2/0/Referable/description) The attribute description of the Referable class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Referable/idShort
  Identifying string of the element within its name space.
 
- [http://admin-shell.io/aas/2/0/Referable/idShort](http://admin-shell.io/aas/2/0/Referable/idShort) The attribute idShort of the Referable class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Referable/idShort](http://admin-shell.io/aas/2/0/Referable/idShort) The attribute idShort of the Referable class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Referable/parent
  Reference to the next referable parent element of the element. Constraint AASd-004: Add parent in case of non-identifiable elements.
 
- [http://admin-shell.io/aas/2/0/Referable/parent](http://admin-shell.io/aas/2/0/Referable/parent) The attribute parent of the Referable class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Referable/parent](http://admin-shell.io/aas/2/0/Referable/parent) The attribute parent of the Referable class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## ReferableElement
  Enumeration of all referable elements within an asset administration shell. Contains IdentifiableElements
@@ -843,92 +854,92 @@ Points to the Expression Semantic of the Submodels
 ## ReferableElement/ACCESS_PERMISSION_RULE_REFERABLE_ELEMENT
  
 
- [http://admin-shell.io/aas/2/0/ReferableElement/ACCESS_PERMISSION_RULE_REFERABLE_ELEMENT](http://admin-shell.io/aas/2/0/ReferableElement/ACCESS_PERMISSION_RULE_REFERABLE_ELEMENT) The ReferableElement ACCESS_PERMISSION_RULE_REFERABLE_ELEMENT of the ReferableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/ReferableElement/ACCESS_PERMISSION_RULE_REFERABLE_ELEMENT](http://admin-shell.io/aas/2/0/ReferableElement/ACCESS_PERMISSION_RULE_REFERABLE_ELEMENT) The ReferableElement ACCESS_PERMISSION_RULE_REFERABLE_ELEMENT of the ReferableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## ReferableElement/ANNOTATED_RELATIONSHIP_ELEMENT_REFERABLE_ELEMENT
  
 
- [http://admin-shell.io/aas/2/0/ReferableElement/ANNOTATED_RELATIONSHIP_ELEMENT_REFERABLE_ELEMENT](http://admin-shell.io/aas/2/0/ReferableElement/ANNOTATED_RELATIONSHIP_ELEMENT_REFERABLE_ELEMENT) The ReferableElement ANNOTATED_RELATIONSHIP_ELEMENT_REFERABLE_ELEMENT of the ReferableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/ReferableElement/ANNOTATED_RELATIONSHIP_ELEMENT_REFERABLE_ELEMENT](http://admin-shell.io/aas/2/0/ReferableElement/ANNOTATED_RELATIONSHIP_ELEMENT_REFERABLE_ELEMENT) The ReferableElement ANNOTATED_RELATIONSHIP_ELEMENT_REFERABLE_ELEMENT of the ReferableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## ReferableElement/BASIC_EVENT_REFERABLE_ELEMENT
  
 
- [http://admin-shell.io/aas/2/0/ReferableElement/BASIC_EVENT_REFERABLE_ELEMENT](http://admin-shell.io/aas/2/0/ReferableElement/BASIC_EVENT_REFERABLE_ELEMENT) The ReferableElement BASIC_EVENT_REFERABLE_ELEMENT of the ReferableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/ReferableElement/BASIC_EVENT_REFERABLE_ELEMENT](http://admin-shell.io/aas/2/0/ReferableElement/BASIC_EVENT_REFERABLE_ELEMENT) The ReferableElement BASIC_EVENT_REFERABLE_ELEMENT of the ReferableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## ReferableElement/BLOB_REFERABLE_ELEMENT
  
 
- [http://admin-shell.io/aas/2/0/ReferableElement/BLOB_REFERABLE_ELEMENT](http://admin-shell.io/aas/2/0/ReferableElement/BLOB_REFERABLE_ELEMENT) The ReferableElement BLOB_REFERABLE_ELEMENT of the ReferableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/ReferableElement/BLOB_REFERABLE_ELEMENT](http://admin-shell.io/aas/2/0/ReferableElement/BLOB_REFERABLE_ELEMENT) The ReferableElement BLOB_REFERABLE_ELEMENT of the ReferableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## ReferableElement/CAPABILITY_REFERABLE_ELEMENT
  
 
- [http://admin-shell.io/aas/2/0/ReferableElement/CAPABILITY_REFERABLE_ELEMENT](http://admin-shell.io/aas/2/0/ReferableElement/CAPABILITY_REFERABLE_ELEMENT) The ReferableElement CAPABILITY_REFERABLE_ELEMENT of the ReferableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/ReferableElement/CAPABILITY_REFERABLE_ELEMENT](http://admin-shell.io/aas/2/0/ReferableElement/CAPABILITY_REFERABLE_ELEMENT) The ReferableElement CAPABILITY_REFERABLE_ELEMENT of the ReferableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## ReferableElement/CONCEPT_DICTIONARY_REFERABLE_ELEMENT
  
 
- [http://admin-shell.io/aas/2/0/ReferableElement/CONCEPT_DICTIONARY_REFERABLE_ELEMENT](http://admin-shell.io/aas/2/0/ReferableElement/CONCEPT_DICTIONARY_REFERABLE_ELEMENT) The ReferableElement CONCEPT_DICTIONARY_REFERABLE_ELEMENT of the ReferableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/ReferableElement/CONCEPT_DICTIONARY_REFERABLE_ELEMENT](http://admin-shell.io/aas/2/0/ReferableElement/CONCEPT_DICTIONARY_REFERABLE_ELEMENT) The ReferableElement CONCEPT_DICTIONARY_REFERABLE_ELEMENT of the ReferableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## ReferableElement/DATA_ELEMENT_REFERABLE_ELEMENT
  
 
- [http://admin-shell.io/aas/2/0/ReferableElement/DATA_ELEMENT_REFERABLE_ELEMENT](http://admin-shell.io/aas/2/0/ReferableElement/DATA_ELEMENT_REFERABLE_ELEMENT) The ReferableElement DATA_ELEMENT_REFERABLE_ELEMENT of the ReferableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/ReferableElement/DATA_ELEMENT_REFERABLE_ELEMENT](http://admin-shell.io/aas/2/0/ReferableElement/DATA_ELEMENT_REFERABLE_ELEMENT) The ReferableElement DATA_ELEMENT_REFERABLE_ELEMENT of the ReferableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## ReferableElement/ENTITY_REFERABLE_ELEMENT
  
 
- [http://admin-shell.io/aas/2/0/ReferableElement/ENTITY_REFERABLE_ELEMENT](http://admin-shell.io/aas/2/0/ReferableElement/ENTITY_REFERABLE_ELEMENT) The ReferableElement ENTITY_REFERABLE_ELEMENT of the ReferableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/ReferableElement/ENTITY_REFERABLE_ELEMENT](http://admin-shell.io/aas/2/0/ReferableElement/ENTITY_REFERABLE_ELEMENT) The ReferableElement ENTITY_REFERABLE_ELEMENT of the ReferableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## ReferableElement/EVENT_REFERABLE_ELEMENT
  
 
- [http://admin-shell.io/aas/2/0/ReferableElement/EVENT_REFERABLE_ELEMENT](http://admin-shell.io/aas/2/0/ReferableElement/EVENT_REFERABLE_ELEMENT) The ReferableElement EVENT_REFERABLE_ELEMENT of the ReferableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/ReferableElement/EVENT_REFERABLE_ELEMENT](http://admin-shell.io/aas/2/0/ReferableElement/EVENT_REFERABLE_ELEMENT) The ReferableElement EVENT_REFERABLE_ELEMENT of the ReferableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## ReferableElement/MULTI_LANGUAGE_PROPERTY_REFERABLE_ELEMENT
  Property with a value that can be provided in multiple languages.
 
- [http://admin-shell.io/aas/2/0/ReferableElement/MULTI_LANGUAGE_PROPERTY_REFERABLE_ELEMENT](http://admin-shell.io/aas/2/0/ReferableElement/MULTI_LANGUAGE_PROPERTY_REFERABLE_ELEMENT) The ReferableElement MULTI_LANGUAGE_PROPERTY_REFERABLE_ELEMENT of the ReferableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/ReferableElement/MULTI_LANGUAGE_PROPERTY_REFERABLE_ELEMENT](http://admin-shell.io/aas/2/0/ReferableElement/MULTI_LANGUAGE_PROPERTY_REFERABLE_ELEMENT) The ReferableElement MULTI_LANGUAGE_PROPERTY_REFERABLE_ELEMENT of the ReferableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## ReferableElement/OPERATION_REFERABLE_ELEMENT
  
 
- [http://admin-shell.io/aas/2/0/ReferableElement/OPERATION_REFERABLE_ELEMENT](http://admin-shell.io/aas/2/0/ReferableElement/OPERATION_REFERABLE_ELEMENT) The ReferableElement OPERATION_REFERABLE_ELEMENT of the ReferableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/ReferableElement/OPERATION_REFERABLE_ELEMENT](http://admin-shell.io/aas/2/0/ReferableElement/OPERATION_REFERABLE_ELEMENT) The ReferableElement OPERATION_REFERABLE_ELEMENT of the ReferableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## ReferableElement/PROPERTY_REFERABLE_ELEMENT
  
 
- [http://admin-shell.io/aas/2/0/ReferableElement/PROPERTY_REFERABLE_ELEMENT](http://admin-shell.io/aas/2/0/ReferableElement/PROPERTY_REFERABLE_ELEMENT) The ReferableElement PROPERTY_REFERABLE_ELEMENT of the ReferableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/ReferableElement/PROPERTY_REFERABLE_ELEMENT](http://admin-shell.io/aas/2/0/ReferableElement/PROPERTY_REFERABLE_ELEMENT) The ReferableElement PROPERTY_REFERABLE_ELEMENT of the ReferableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## ReferableElement/RANGE_REFERABLE_ELEMENT
  
 
- [http://admin-shell.io/aas/2/0/ReferableElement/RANGE_REFERABLE_ELEMENT](http://admin-shell.io/aas/2/0/ReferableElement/RANGE_REFERABLE_ELEMENT) The ReferableElement RANGE_REFERABLE_ELEMENT of the ReferableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/ReferableElement/RANGE_REFERABLE_ELEMENT](http://admin-shell.io/aas/2/0/ReferableElement/RANGE_REFERABLE_ELEMENT) The ReferableElement RANGE_REFERABLE_ELEMENT of the ReferableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## ReferableElement/REFERENCE_ELEMENT_REFERABLE_ELEMENT
  
 
- [http://admin-shell.io/aas/2/0/ReferableElement/REFERENCE_ELEMENT_REFERABLE_ELEMENT](http://admin-shell.io/aas/2/0/ReferableElement/REFERENCE_ELEMENT_REFERABLE_ELEMENT) The ReferableElement REFERENCE_ELEMENT_REFERABLE_ELEMENT of the ReferableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/ReferableElement/REFERENCE_ELEMENT_REFERABLE_ELEMENT](http://admin-shell.io/aas/2/0/ReferableElement/REFERENCE_ELEMENT_REFERABLE_ELEMENT) The ReferableElement REFERENCE_ELEMENT_REFERABLE_ELEMENT of the ReferableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## ReferableElement/RELATIONSHIPT_ELEMENT_REFERABLE_ELEMENT
  
 
- [http://admin-shell.io/aas/2/0/ReferableElement/RELATIONSHIPT_ELEMENT_REFERABLE_ELEMENT](http://admin-shell.io/aas/2/0/ReferableElement/RELATIONSHIPT_ELEMENT_REFERABLE_ELEMENT) The ReferableElement RELATIONSHIPT_ELEMENT_REFERABLE_ELEMENT of the ReferableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/ReferableElement/RELATIONSHIPT_ELEMENT_REFERABLE_ELEMENT](http://admin-shell.io/aas/2/0/ReferableElement/RELATIONSHIPT_ELEMENT_REFERABLE_ELEMENT) The ReferableElement RELATIONSHIPT_ELEMENT_REFERABLE_ELEMENT of the ReferableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## ReferableElement/SUBMODEL_ELEMENT_COLLECTION_REFERABLE_ELEMENT
  Collection of Submodel Elements
 
- [http://admin-shell.io/aas/2/0/ReferableElement/SUBMODEL_ELEMENT_COLLECTION_REFERABLE_ELEMENT](http://admin-shell.io/aas/2/0/ReferableElement/SUBMODEL_ELEMENT_COLLECTION_REFERABLE_ELEMENT) The ReferableElement SUBMODEL_ELEMENT_COLLECTION_REFERABLE_ELEMENT of the ReferableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/ReferableElement/SUBMODEL_ELEMENT_COLLECTION_REFERABLE_ELEMENT](http://admin-shell.io/aas/2/0/ReferableElement/SUBMODEL_ELEMENT_COLLECTION_REFERABLE_ELEMENT) The ReferableElement SUBMODEL_ELEMENT_COLLECTION_REFERABLE_ELEMENT of the ReferableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## ReferableElement/SUBMODEL_ELEMENT_REFERABLE_ELEMENT
  
 
- [http://admin-shell.io/aas/2/0/ReferableElement/SUBMODEL_ELEMENT_REFERABLE_ELEMENT](http://admin-shell.io/aas/2/0/ReferableElement/SUBMODEL_ELEMENT_REFERABLE_ELEMENT) The ReferableElement SUBMODEL_ELEMENT_REFERABLE_ELEMENT of the ReferableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/ReferableElement/SUBMODEL_ELEMENT_REFERABLE_ELEMENT](http://admin-shell.io/aas/2/0/ReferableElement/SUBMODEL_ELEMENT_REFERABLE_ELEMENT) The ReferableElement SUBMODEL_ELEMENT_REFERABLE_ELEMENT of the ReferableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## ReferableElement/VIEW_REFERABLE_ELEMENT
  
 
- [http://admin-shell.io/aas/2/0/ReferableElement/VIEW_REFERABLE_ELEMENT](http://admin-shell.io/aas/2/0/ReferableElement/VIEW_REFERABLE_ELEMENT) The ReferableElement VIEW_REFERABLE_ELEMENT of the ReferableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/ReferableElement/VIEW_REFERABLE_ELEMENT](http://admin-shell.io/aas/2/0/ReferableElement/VIEW_REFERABLE_ELEMENT) The ReferableElement VIEW_REFERABLE_ELEMENT of the ReferableElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Reference
  Reference to either a model element of the same or another AAs or to an external entity. A reference is an ordered list of keys, each key referencing an element. The complete list of keys may for example be concatenated to a path that then gives unique access to an element or entity.
@@ -938,7 +949,7 @@ Points to the Expression Semantic of the Submodels
 ## Reference/key
  Unique reference in its name space.
 
- [http://admin-shell.io/aas/2/0/Reference/key](http://admin-shell.io/aas/2/0/Reference/key) The attribute key of the Reference class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Reference/key](http://admin-shell.io/aas/2/0/Reference/key) The attribute key of the Reference class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## ReferenceElement
  A reference element is a data element that defines a logical reference to another element within the same or another AAS or a reference to an external object or entity.
@@ -948,7 +959,7 @@ Points to the Expression Semantic of the Submodels
 ## ReferenceElement/value
  The value, for example an IRDI if the idType=IRDI, a literal, or anything else.
 
- [http://admin-shell.io/aas/2/0/ReferenceElement/value](http://admin-shell.io/aas/2/0/ReferenceElement/value) The attribute value of the ReferenceElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/ReferenceElement/value](http://admin-shell.io/aas/2/0/ReferenceElement/value) The attribute value of the ReferenceElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## RelationshipElement
  
@@ -958,12 +969,12 @@ Points to the Expression Semantic of the Submodels
 ## RelationshipElement/relationshipFirst
  First element in the relationship taking the role of the subject.
 
- [http://admin-shell.io/aas/2/0/RelationshipElement/relationshipFirst](http://admin-shell.io/aas/2/0/RelationshipElement/relationshipFirst) The attribute relationshipFirst of the RelationshipElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/RelationshipElement/relationshipFirst](http://admin-shell.io/aas/2/0/RelationshipElement/relationshipFirst) The attribute relationshipFirst of the RelationshipElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## RelationshipElement/relationshipSecond
  Second element in the relationship taking the role of the object.
 
- [http://admin-shell.io/aas/2/0/RelationshipElement/relationshipSecond](http://admin-shell.io/aas/2/0/RelationshipElement/relationshipSecond) The attribute relationshipSecond of the RelationshipElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/RelationshipElement/relationshipSecond](http://admin-shell.io/aas/2/0/RelationshipElement/relationshipSecond) The attribute relationshipSecond of the RelationshipElement class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Security
  Container for security relevant information of the AAS.
@@ -973,17 +984,17 @@ Points to the Expression Semantic of the Submodels
 ## Security/accessControlPolicyPoints
  Access control policy points of the AAS.
 
- [http://admin-shell.io/aas/2/0/Security/accessControlPolicyPoints](http://admin-shell.io/aas/2/0/Security/accessControlPolicyPoints) The attribute accessControlPolicyPoints of the Security class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Security/accessControlPolicyPoints](http://admin-shell.io/aas/2/0/Security/accessControlPolicyPoints) The attribute accessControlPolicyPoints of the Security class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Security/certificate
  Certificates of the AAS.
 
- [http://admin-shell.io/aas/2/0/Security/certificate](http://admin-shell.io/aas/2/0/Security/certificate) The attribute certificate of the Security class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Security/certificate](http://admin-shell.io/aas/2/0/Security/certificate) The attribute certificate of the Security class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Security/requiredCertificateExtension
  Certificate extensions as required by the AAS.
 
- [http://admin-shell.io/aas/2/0/Security/requiredCertificateExtension](http://admin-shell.io/aas/2/0/Security/requiredCertificateExtension) The attribute requiredCertificateExtension of the Security class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Security/requiredCertificateExtension](http://admin-shell.io/aas/2/0/Security/requiredCertificateExtension) The attribute requiredCertificateExtension of the Security class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## SubjectAttributes
  A set of data elements that further classifies a specific subject.
@@ -993,7 +1004,7 @@ Points to the Expression Semantic of the Submodels
 ## SubjectAttributes/subjectAttribute
  A data element that further classifies a specific subject.
 
- [http://admin-shell.io/aas/2/0/SubjectAttributes/subjectAttribute](http://admin-shell.io/aas/2/0/SubjectAttributes/subjectAttribute) The attribute subjectAttribute of the SubjectAttributes class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/SubjectAttributes/subjectAttribute](http://admin-shell.io/aas/2/0/SubjectAttributes/subjectAttribute) The attribute subjectAttribute of the SubjectAttributes class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Submodel
  A Submodel defines a specific aspect of the asset represented by the AAS. A submodel is used to structure the virtual representation and technical functionality of an Administration Shell into distinguishable parts. Each submodel refers to a well-defined domain or subject matter. Submodels can become standardized and thus become submodels types. Submodels can have different life-cycles.
@@ -1005,12 +1016,12 @@ Describe the different types of Data related to the I4.0 Asset
 ## Submodel/inAccordanceWith
  The Submodel is in accordance with a given standard specified in the STO ontology
 
- [http://admin-shell.io/aas/2/0/Submodel/inAccordanceWith](http://admin-shell.io/aas/2/0/Submodel/inAccordanceWith) The attribute inAccordanceWith of the Submodel class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Submodel/inAccordanceWith](http://admin-shell.io/aas/2/0/Submodel/inAccordanceWith) The attribute inAccordanceWith of the Submodel class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## Submodel/submodelElement
  A submodel consists of zero or more submodel elements.
 
- [http://admin-shell.io/aas/2/0/Submodel/submodelElement](http://admin-shell.io/aas/2/0/Submodel/submodelElement) The attribute submodelElement of the Submodel class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/Submodel/submodelElement](http://admin-shell.io/aas/2/0/Submodel/submodelElement) The attribute submodelElement of the Submodel class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## SubmodelElement
  A submodel element is an element suitable for the description and differentiation of assets.
@@ -1025,17 +1036,17 @@ Describe the different types of Data related to the I4.0 Asset
 ## SubmodelElementCollection/allowDuplicates
  If allowDuplicates=true then it is allowed that the collection contains the same element several times. Default = false
 
- [http://admin-shell.io/aas/2/0/SubmodelElementCollection/allowDuplicates](http://admin-shell.io/aas/2/0/SubmodelElementCollection/allowDuplicates) The attribute allowDuplicates of the SubmodelElementCollection class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/SubmodelElementCollection/allowDuplicates](http://admin-shell.io/aas/2/0/SubmodelElementCollection/allowDuplicates) The attribute allowDuplicates of the SubmodelElementCollection class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## SubmodelElementCollection/ordered
  If ordered=false then the elements in the property collection are not ordered. If ordered=true then the elements in the collection are ordered. Default = false
 
- [http://admin-shell.io/aas/2/0/SubmodelElementCollection/ordered](http://admin-shell.io/aas/2/0/SubmodelElementCollection/ordered) The attribute ordered of the SubmodelElementCollection class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/SubmodelElementCollection/ordered](http://admin-shell.io/aas/2/0/SubmodelElementCollection/ordered) The attribute ordered of the SubmodelElementCollection class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## SubmodelElementCollection/value
  The value, for example an IRDI if the idType=IRDI, a literal, or anything else.
 
- [http://admin-shell.io/aas/2/0/SubmodelElementCollection/value](http://admin-shell.io/aas/2/0/SubmodelElementCollection/value) The attribute value of the SubmodelElementCollection class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/SubmodelElementCollection/value](http://admin-shell.io/aas/2/0/SubmodelElementCollection/value) The attribute value of the SubmodelElementCollection class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 ## View
  Different views associated to the Administration Shell via the Submodels
@@ -1047,7 +1058,7 @@ A view is a collection of referable elements w.r.t. to a specific viewpoint of o
 ## View/containedElement
  Referable elements that are contained in the view.
 
- [http://admin-shell.io/aas/2/0/View/containedElement](http://admin-shell.io/aas/2/0/View/containedElement) The attribute containedElement of the View class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0
+ [http://admin-shell.io/aas/2/0/View/containedElement](http://admin-shell.io/aas/2/0/View/containedElement) The attribute containedElement of the View class as defined in 'Details of the Asset Administration Shell - Part 1 - Version 2.0'
 
 
 
